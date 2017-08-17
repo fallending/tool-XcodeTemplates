@@ -12,21 +12,20 @@
 #import "___FILEBASENAME___.h"
 
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Types
-
-////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Defines & Constants
-
-////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Macros
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private Interface
 
-@interface ___FILEBASENAMEASIDENTIFIER___ ()
+@interface ___FILEBASENAMEASIDENTIFIER___ () {
+
+}
 
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Private Properties
+#pragma mark - Outlets
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Properties
 
 @end
 
@@ -36,26 +35,19 @@
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Synthesize
-
-////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Setup & Teardown
-
-- (void)commonInit___FILEBASENAMEASIDENTIFIER___ {
-    // Your common initialization code here
-}
+#pragma mark - Life cycle
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self commonInit___FILEBASENAMEASIDENTIFIER___];
+        [self commonInit];
     }
     return self;
 }
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        [self commonInit___FILEBASENAMEASIDENTIFIER___];
+        [self commonInit];
     }
     return self;
 }
@@ -73,15 +65,44 @@
     // Configure the view for the selected state
 }
 
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    // Put your code here
+}
+
+- (void)layoutSubviews{
+    [super layoutSubviews];
+
+    // Put your code here
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Public methods
 
++ (CGFloat)cellHeightWithModel:(id)model {
+    return 44.f;
+}
+
++ (CGFloat)cellHeight{
+    return 44.f;
+}
+
+- (void)configWithModel:(id)model {
+    
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private methods
 
-////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Actions
+- (void)commonInit {
+    // Your common initialization code here
+}
 
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Action handle
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - DataSource & Delegate
 
 @end

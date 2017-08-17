@@ -41,14 +41,14 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Setup & Teardown
 
-- (void)commonInit___FILEBASENAMEASIDENTIFIER___ {
+- (void)commonInit {
 	// Your init code here
 }
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self commonInit___FILEBASENAMEASIDENTIFIER___];
+        [self commonInit];
     }
     return self;
 }
@@ -56,13 +56,9 @@
 - (id)initWithCoder:(NSCoder*)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self commonInit___FILEBASENAMEASIDENTIFIER___];
+        [self commonInit];
     }
     return self;
-}
-
-- (void)dealloc {   
-    [super dealloc];
 }
 
 ////////////////////////////////////////////////////////////////////////////////

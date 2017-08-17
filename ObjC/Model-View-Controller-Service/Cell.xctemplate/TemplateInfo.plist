@@ -30,7 +30,7 @@
 			<key>Description</key>
 			<string>父类</string>
 			<key>Identifier</key>
-			<string>cocoaSubclass</string>
+			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
 			<string>Subclass of:</string>
 			<key>NotPersisted</key>
@@ -52,20 +52,20 @@
 				<string>UICollectionViewCell</string>
 			</array>
 		</dict>
-		<dict>
+		<!-- <dict>
 			<key>Default</key>
 			<string>true</string>
 			<key>Description</key>
-			<string>nib</string>
+			<string>Whether to create a XIB file with the same name</string>
 			<key>Identifier</key>
 			<string>XIB</string>
 			<key>Name</key>
-			<string>是否创建xib文件?</string>
+			<string>need nib?</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Type</key>
 			<string>checkbox</string>
-		</dict>
+		</dict> -->
 	</array>
 	<key>Platforms</key>
 	<array>

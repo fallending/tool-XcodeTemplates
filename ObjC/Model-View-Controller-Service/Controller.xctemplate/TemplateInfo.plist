@@ -19,7 +19,7 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>类名</string>
+			<string>MyController</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
@@ -39,7 +39,7 @@
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
-			<string>Subclass of</string>
+			<string>Subclass of:</string>
 			<key>Required</key>
 			<true/>
 			<key>Suffixes</key>
@@ -56,6 +56,20 @@
 				<string>UIViewController</string>
 				<string>UITableViewController</string>
 			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Description</key>
+			<string>nib</string>
+			<key>Identifier</key>
+			<string>是否创建xib文件?</string>
+			<key>Name</key>
+			<string></string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>checkbox</string>
 		</dict>
 	</array>
 	<key>Platforms</key>
