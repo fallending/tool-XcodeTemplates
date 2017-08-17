@@ -2,12 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
 	<key>DefaultCompletionName</key>
 	<string>MyService</string>
 	<key>Description</key>
-	<string>服务</string>
+	<string>视图服务</string>
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -26,27 +33,27 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>NSObject</string>
+			<string>BaseService</string>
 			<key>Description</key>
-			<string>父类</string>
+			<string>What class to subclass in the new file</string>
+			<key>FallbackHeader</key>
+			<string>#import &quot;BaseService.h&quot;</string>
 			<key>Identifier</key>
-			<string>cocoaSubclass</string>
+			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
-			<string>Subclass of:</string>
-			<key>NotPersisted</key>
-			<true/>
+			<string>Subclass of</string><!-- #import "BaseService.h" -->
 			<key>Required</key>
 			<true/>
 			<key>Suffixes</key>
 			<dict>
-				<key>NSObject</key>
+				<key>BaseService</key>
 				<string>Service</string>
 			</dict>
 			<key>Type</key>
 			<string>class</string>
 			<key>Values</key>
 			<array>
-				<string>NSObject</string>
+				<string>BaseService</string>
 			</array>
 		</dict>
 	</array>
@@ -57,6 +64,6 @@
 	<key>SortOrder</key>
 	<string>20</string>
 	<key>Summary</key>
-	<string>ViewService templates</string>
+	<string>Service templates</string>
 </dict>
 </plist>

@@ -63,6 +63,13 @@
 			<true/>
 			<key>Type</key>
 			<string>checkbox</string>
+			<key>Options</key>
+			<dict>
+				<key>cocoaTouchSubclass</key>
+				<array>
+					<string>UIViewController</string>
+				</array>
+			</dict>
 		</dict>
 	</array>
 	<key>Platforms</key>
