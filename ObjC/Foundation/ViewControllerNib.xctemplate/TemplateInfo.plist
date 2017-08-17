@@ -35,7 +35,7 @@
 			<key>Default</key>
 			<string>UIViewController</string>
 			<key>Description</key>
-			<string>继承谁</string>
+			<string>父类</string>
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
@@ -44,8 +44,6 @@
 			<true/>
 			<key>Suffixes</key>
 			<dict>
-				<key>UITableViewController</key>
-				<string>ListController</string>
 				<key>UIViewController</key>
 				<string>ViewController</string>
 			</dict>
@@ -54,7 +52,6 @@
 			<key>Values</key>
 			<array>
 				<string>UIViewController</string>
-				<string>UITableViewController</string>
 			</array>
 		</dict>
 	</array>

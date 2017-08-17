@@ -36,8 +36,6 @@
 			<string>NSObject</string>
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
-			<key>FallbackHeader</key>
-			<string>#import "Common.h"</string>
 			<key>Identifier</key>
 			<string>cocoaSubclass</string>
 			<key>Name</key>

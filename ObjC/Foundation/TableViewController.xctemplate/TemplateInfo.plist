@@ -8,9 +8,9 @@
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>MyViewController</string>
+	<string>ZYSPSomeViewController</string>
 	<key>Description</key>
-	<string>视图控制器</string>
+	<string>UIViewController子类</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>

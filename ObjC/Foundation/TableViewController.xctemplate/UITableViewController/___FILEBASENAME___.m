@@ -23,7 +23,9 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private Interface
 
-@interface ___FILEBASENAMEASIDENTIFIER___ ()
+@interface ___FILEBASENAMEASIDENTIFIER___ () {
+
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private Properties
@@ -42,18 +44,18 @@
 #pragma mark - Setup & Teardown
 
 - (void)commonInit___FILEBASENAMEASIDENTIFIER___ {
-    // Your common initialization code here
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder {
-    self = [super initWithCoder:aDecoder];
+- (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         [self commonInit___FILEBASENAMEASIDENTIFIER___];
     }
     return self;
 }
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)reuseIdentifier {
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+
+- (id)initWithCoder:(NSCoder*)aDecoder {
+    self = [super initWithCoder:aDecoder];
     if (self) {
         [self commonInit___FILEBASENAMEASIDENTIFIER___];
     }
@@ -61,27 +63,35 @@
 }
 
 - (void)dealloc {
+    
+}
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // your code here
+}
+
+- (void)viewDidUnload {
+	// your code here
+    [super viewDidUnload];
 }
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Superclass Overrides
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-    
-    // Configure the view for the selected state
-}
-
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Public methods
-
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private methods
 
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Actions
+#pragma mark - Action handle
 
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Delegate methods
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Properties
 
 @end
