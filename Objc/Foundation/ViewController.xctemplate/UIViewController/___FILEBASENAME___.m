@@ -11,22 +11,33 @@
 
 #import "___FILEBASENAME___.h"
 
+
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Types
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Defines & Constants
 
+
+
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Macros
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private Interface
 
-@interface ___FILEBASENAMEASIDENTIFIER___ ()
+@interface ___FILEBASENAMEASIDENTIFIER___ () {
+
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private Properties
+
+
 
 @end
 
@@ -39,42 +50,32 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Synthesize
 
-/* Outlets ********************************************************************/
 
-/* Public *********************************************************************/
-
-/* Private ********************************************************************/
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Setup & Teardown
 
-- (void)commonInit___FILEBASENAMEASIDENTIFIER___
-{
+- (void)commonInit___FILEBASENAMEASIDENTIFIER___ {
 }
 
-- (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self)
-    {
+    if (self) {
         [self commonInit___FILEBASENAMEASIDENTIFIER___];
     }
     return self;
 }
 
-- (id)initWithCoder:(NSCoder*)aDecoder
-{
+- (id)initWithCoder:(NSCoder*)aDecoder {
     self = [super initWithCoder:aDecoder];
-    if (self)
-    {
+    if (self) {
         [self commonInit___FILEBASENAMEASIDENTIFIER___];
     }
     return self;
 }
 
-- (void)dealloc
-{   
-    [super dealloc];
+- (void)dealloc {
+    
 }
 
 - (void)viewDidLoad {
@@ -90,17 +91,31 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Superclass Overrides
 
+
+
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Public methods
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private methods
 
+
+
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Actions
+#pragma mark - Action handle
+
+
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Delegate methods
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Properties
+
 
 
 @end

@@ -1,30 +1,121 @@
+//
+//  ___FILENAME___
+//  ___PROJECTNAME___
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+//
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Imports
 
 #import "___FILEBASENAME___.h"
 
 
-@interface ___FILEBASENAMEASIDENTIFIER___ ()
-@end
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Types
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
-RFUIInterfaceOrientationSupportDefault
-//MBEntityExchangingPrepareForTableViewSegue
 
-+ (NSString *)storyboardName {
-    return @"<#所在 Storyboard 名，不从代码创建可以删除#>";
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Defines & Constants
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Macros
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Private Interface
+
+@interface ___FILEBASENAMEASIDENTIFIER___ () {
+
 }
 
-- (id)listView {
-    return self.tableView;
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Private Properties
+
+
+
+@end
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Implementation
+
+@implementation ___FILEBASENAMEASIDENTIFIER___
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Synthesize
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Setup & Teardown
+
+- (void)commonInit___FILEBASENAMEASIDENTIFIER___ {
+}
+
+- (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        [self commonInit___FILEBASENAMEASIDENTIFIER___];
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder*)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self commonInit___FILEBASENAMEASIDENTIFIER___];
+    }
+    return self;
+}
+
+- (void)dealloc {
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // your code here
 }
 
-// TODO: 不用请删除
-// 系统返回按钮可以用这个方法拦截，注意侧滑返回仍需要在 viewWillDisappear: 或 viewDidDisappear: 中执行必要的操作
-//- (BOOL)shouldPopOnBackButtonTappedForNavigationController:(nonnull RFNavigationController *)navigation {
-//    return YES;
-//}
+- (void)viewDidUnload {
+	// your code here
+    [super viewDidUnload];
+}
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Superclass Overrides
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Public methods
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Private methods
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Action handle
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Delegate methods
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Properties
+
+
 
 @end

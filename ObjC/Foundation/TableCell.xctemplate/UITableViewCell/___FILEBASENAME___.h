@@ -44,7 +44,7 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 #pragma mark - Instance Methods
 
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Actions
+#pragma mark - Action handle
 
 
 @end

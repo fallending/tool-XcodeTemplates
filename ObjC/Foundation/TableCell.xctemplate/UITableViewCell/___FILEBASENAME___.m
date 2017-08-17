@@ -38,41 +38,29 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Synthesize
 
-/* Outlets ********************************************************************/
-
-/* Public *********************************************************************/
-
-/* Private ********************************************************************/
-
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Setup & Teardown
 
-- (void)commonInit___FILEBASENAMEASIDENTIFIER___
-{
+- (void)commonInit___FILEBASENAMEASIDENTIFIER___ {
     // Your common initialization code here
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
+- (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
-    if (self)
-    {
+    if (self) {
         [self commonInit___FILEBASENAMEASIDENTIFIER___];
     }
     return self;
 }
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)reuseIdentifier
-{
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self)
-    {
+    if (self) {
         [self commonInit___FILEBASENAMEASIDENTIFIER___];
     }
     return self;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     // Your code here
 
     [super dealloc];
@@ -82,8 +70,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Superclass Overrides
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
     
     // Configure the view for the selected state
