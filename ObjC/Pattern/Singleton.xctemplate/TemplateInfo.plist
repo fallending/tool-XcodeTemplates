@@ -2,28 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AllowedTypes</key>
-	<array>
-		<string>public.objective-c-source</string>
-		<string>public.objective-c-plus-plus-source</string>
-	</array>
 	<key>DefaultCompletionName</key>
-	<string>MyClass</string>
+	<string>XXX</string>
 	<key>Description</key>
-	<string>An Objective-C singleton, with implementation and header files.</string>
+	<string>单例</string>
 	<key>Kind</key>
-	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.m</string>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the singleton class to create</string>
+			<string>The name of the class to create</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>Singleton class name</string>
+			<string>Class:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -31,14 +24,30 @@
 			<key>Type</key>
 			<string>text</string>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Description</key>
+			<string>父类</string>
+			<key>Identifier</key>
+			<string>cocoaSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>class</string>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>SortOrder</key>
-	<string>1</string>
+	<string>20</string>
 	<key>Summary</key>
-	<string>An Objective-C singleton with a header for Cocoa Touch</string>
+	<string>Singleton templates</string>
 </dict>
 </plist>

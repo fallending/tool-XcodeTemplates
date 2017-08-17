@@ -40,9 +40,9 @@
 			<key>Suffixes</key>
 			<dict>
 				<key>UITableViewCell</key>
-				<string>Cell</string>
+				<string>ListCell</string>
 				<key>UICollectionViewCell</key>
-				<string>Cell</string>
+				<string>CollectionCell</string>
 			</dict>
 			<key>Type</key>
 			<string>class</string>

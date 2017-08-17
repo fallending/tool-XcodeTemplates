@@ -2,28 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AllowedTypes</key>
-	<array>
-		<string>public.objective-c-source</string>
-		<string>public.objective-c-plus-plus-source</string>
-	</array>
 	<key>DefaultCompletionName</key>
 	<string>MyViewController</string>
 	<key>Description</key>
 	<string>视图控制器</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.m</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>MyController</string>
+			<string>The name of the class to create</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>Class</string>
+			<string>Class:</string>
 			<key>NotPersisted</key>
 			<false/>
 			<key>Required</key>
@@ -61,11 +54,11 @@
 			<key>Default</key>
 			<string>true</string>
 			<key>Description</key>
-			<string>nib</string>
+			<string>Whether to create a XIB file with the same name</string>
 			<key>Identifier</key>
-			<string>是否创建xib文件?</string>
+			<string>XIB</string>
 			<key>Name</key>
-			<string></string>
+			<string>need nib?</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Type</key>

@@ -10,7 +10,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyObject</string>
 	<key>Description</key>
-	<string>一般类</string>
+	<string>普通对象</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>

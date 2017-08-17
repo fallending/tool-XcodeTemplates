@@ -12,17 +12,20 @@
 #import "___FILEBASENAME___.h"
 
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Defines
-
-////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Types
-
-////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Macros
+#pragma mark - Defines & Constants
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private Interface
-@interface ___FILEBASENAMEASIDENTIFIER___ ()
+
+@interface ___FILEBASENAMEASIDENTIFIER___ () {
+
+}
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Properties
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Outlets
 
 @end
 
@@ -34,49 +37,39 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Synthesize
 
-/* Public *********************************************************************/
-
-/* Private ********************************************************************/
-
-
-
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Class Methods
+#pragma mark - Life cycle
 
-+ (___FILEBASENAMEASIDENTIFIER___*)sharedInstance
-{
-    static ___FILEBASENAMEASIDENTIFIER___ *sharedInstance = nil;
-    
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });
-    
-    return sharedInstance;
-}
-
-////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Setup & Teardown
-
-/*
-- (id)init
-{
-    self = [super init];
-    if (self)
-    {
-        
+- (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        [self commonInit];
     }
     return self;
 }
 
-- (void)dealloc
-{   
-    [super dealloc];
+- (id)initWithCoder:(NSCoder*)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self commonInit];
+    }
+    return self;
 }
-*/
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // your code here
+}
+
+- (void)dealloc {
+    
+}
 
 ////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Superclass Overrides
+#pragma mark - Initialize
+
+- (void)commonInit {
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Public methods
@@ -84,5 +77,16 @@
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Private methods
 
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Action handle
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Notification handle
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - DataSource & Delegate
+
+////////////////////////////////////////////////////////////////////////////////
+#pragma mark - Properties
 
 @end
