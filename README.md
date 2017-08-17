@@ -1,6 +1,9 @@
 # xcode-templates
 
-as repository name says.
+Xcode 7 模板目录
+```
+/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/
+```
 
 ## 文件模板 File Templates
 
