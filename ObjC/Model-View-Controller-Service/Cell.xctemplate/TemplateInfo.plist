@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>ZYSPSomeView</string>
+	<string>MyCell</string>
 	<key>Description</key>
-	<string>UIView 模版</string>
+	<string>条目视图</string>
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -26,11 +26,9 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>UIView</string>
+			<string>UITableViewCell</string>
 			<key>Description</key>
-			<string>继承谁</string>
-			<key>FallbackHeader</key>
-			<string>#import "CommonUI.h"</string>
+			<string>父类</string>
 			<key>Identifier</key>
 			<string>cocoaSubclass</string>
 			<key>Name</key>
@@ -41,14 +39,17 @@
 			<true/>
 			<key>Suffixes</key>
 			<dict>
-				<key>UIView</key>
-				<string>View</string>
+				<key>UITableViewCell</key>
+				<string>Cell</string>
+				<key>UICollectionViewCell</key>
+				<string>Cell</string>
 			</dict>
 			<key>Type</key>
 			<string>class</string>
 			<key>Values</key>
 			<array>
-				<string>UIView</string>
+				<string>UITableViewCell</string>
+				<string>UICollectionViewCell</string>
 			</array>
 		</dict>
 		<dict>
@@ -73,6 +74,6 @@
 	<key>SortOrder</key>
 	<string>20</string>
 	<key>Summary</key>
-	<string>UIView 模版</string>
+	<string>Cell templates</string>
 </dict>
 </plist>

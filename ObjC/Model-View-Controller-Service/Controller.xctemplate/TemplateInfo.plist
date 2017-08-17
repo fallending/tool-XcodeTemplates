@@ -35,7 +35,7 @@
 			<key>Default</key>
 			<string>UIViewController</string>
 			<key>Description</key>
-			<string>继承谁</string>
+			<string>父类</string>
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
