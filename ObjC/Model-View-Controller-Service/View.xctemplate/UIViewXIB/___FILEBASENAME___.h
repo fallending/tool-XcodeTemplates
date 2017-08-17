@@ -24,14 +24,13 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 #pragma mark - Interface
 
 /**
- <#简要说明一下这个 view 是做什么的，在哪用#>
+ <#简要说明一下它的作用#>
  */
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
 
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Properties
-
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Class Methods

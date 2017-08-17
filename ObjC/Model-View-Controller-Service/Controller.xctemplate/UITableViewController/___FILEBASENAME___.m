@@ -71,11 +71,6 @@
     // your code here
 }
 
-- (void)viewDidUnload {
-	// your code here
-    [super viewDidUnload];
-}
-
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Superclass Overrides
 

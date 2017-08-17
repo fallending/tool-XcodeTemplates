@@ -56,11 +56,11 @@
 			<key>Default</key>
 			<string>true</string>
 			<key>Description</key>
-			<string>是否创建同名 XIB 文件</string>
+			<string>nib</string>
 			<key>Identifier</key>
 			<string>XIB</string>
 			<key>Name</key>
-			<string>创建 XIB？</string>
+			<string>是否创建xib文件?</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Type</key>
